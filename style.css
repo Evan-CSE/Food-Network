@@ -3,6 +3,7 @@ body{
 }
 
 .menu-bar{
+    opacity: 0.5;
     position: fixed;
     display: inline-block;
     width: 100%;
@@ -13,10 +14,21 @@ body{
     display: inline-block;
     padding: 5px;
     color: blanchedalmond;
+    font-weight: 35px;
 }
 
 .menu-bar li{
     border-right: 1px solid gray;
+}
+
+.menu-bar li:hover{
+    box-shadow:3px 3px 3px blanchedalmond;
+    font-size:x-large;
+}
+
+
+.menu-bar li a{
+    text-decoration: none;
 }
 
 .menu-bar li:last-child{
