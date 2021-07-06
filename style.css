@@ -1,4 +1,31 @@
+body{
+    font-family: 'Patrick Hand', cursive;
+}
+
+.menu-bar{
+    position: fixed;
+    display: inline-block;
+    width: 100%;
+    background-image: linear-gradient(navy,blue);
+}
+
+.menu-bar ul,li{
+    display: inline-block;
+    padding: 5px;
+    color: blanchedalmond;
+}
+
+.menu-bar li{
+    border-right: 1px solid gray;
+}
+
+.menu-bar li:last-child{
+    border-right: none;
+}
+
+
 .upper{
+    margin-top: 5%;
     width: 100%;
     display: inline-block;
     background-image: url('images/shapes/Frame\ 59.jpg');
@@ -91,4 +118,8 @@ footer{
     text-align: center;
     background-color:darkgrey;
     height:150px;
+}
+
+footer p{
+    font-size: 24px;
 }
